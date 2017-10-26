@@ -1,0 +1,131 @@
+/*
+Theme Name: available
+Theme URI: https://creacionweb.mipropia.com
+Author: the WordPress team
+Author URI: https://creacionweb.mipropia.com
+Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: available
+Tags: html5,css3,javascript
+*/
+.menu{
+  position: relative;
+}
+
+
+.menu:before{
+  content: '';
+  position: relative;
+
+  border-style: solid;
+  border-width: 20px 20px 20px 20px;
+  border-color: rgb(241, 232, 12)
+                transparent
+                  transparent
+                  transparent;
+
+                left: 89%;
+                bottom: -55px;
+                z-index: 99;
+}
+
+a:hover{
+  background-color: rgb(241, 232, 12);
+}
+
+.nav-item:before{
+  content: '';
+  position: relative;
+
+  border-style: solid;
+  border-width: 15px 15px 15px 15px;
+  border-color: rgb(241, 232, 12)
+                transparent
+                  transparent
+                  transparent;
+                  bottom: -46px;
+                  left: 45px;
+
+              opacity: 0;
+}
+
+.nav-item:hover:before{
+  opacity: 1;
+  z-index: 99;
+}
+
+
+.child{
+  background-color: rgb(241, 232, 12);
+  padding: 50px;
+
+}
+
+.couta{
+  background-color: gray;
+  text-decoration: none;
+  color: black;
+  width: 150px;
+  margin: auto;
+}
+
+
+.bordesito{
+  border-bottom: 3px solid  rgb(241, 232, 12);
+  width: 200px;
+  margin: auto;
+}
+
+.bordesito2{
+  border-bottom: 3px solid  gray;
+  width: 50px;
+  margin: auto;
+}
+
+
+.icono{
+  color: rgb(241, 232, 12);
+  background: rgb(32, 30, 30);
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.iconos2{
+    color: white;
+    border-radius: 50%;
+    padding: 20px;
+    background: rgb(68, 182, 124);
+}
+.iconos2:hover{
+  padding: 30px;
+  transition: 0.5s;
+}
+
+.globe{
+  color: rgb(241, 232, 12);
+}
+.capa{
+  background-color: black;
+  opacity: 0.7;
+}
+
+.icona{
+  text-decoration: none;
+  background: rgb(32, 30, 30);
+  padding: 10px;
+  color: white;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+p{
+  line-height: 1.5em;
+}
+
+.footer{
+  border-top: 15px solid rgb(34, 37, 33);
+  background-color: rgb(20, 24, 20);
+  color: white;
+
+}
